@@ -9,7 +9,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
-  <style></style>
+  <link rel="icon" type="image/png" href="img/icon1.png">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -29,7 +29,6 @@
           <li><a href="#home" class="nav-link active">Home</a></li>
           <li><a href="#projects" class="nav-link">Projects</a></li>
           <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#3d-art" class="nav-link">3D Art</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
@@ -46,10 +45,9 @@
   <section id="home" class="hero">
     <div class="hero-content">
       <h1 class="hero-title">Creating Immersive Game Experiences</h1>
-      <p class="hero-subtitle">Unity Developer & 3D Artist specializing in game mechanics and interactive worlds</p>
+      <p class="hero-subtitle">Unity Developer specializing in game mechanics and interactive worlds.</p>
       <div class="hero-buttons">
         <a href="#projects" class="btn btn-primary">View My Games</a>
-        <a href="#3d-art" class="btn btn-secondary">See 3D Models</a>
       </div>
     </div>
     <div class="hero-scroll">
@@ -68,22 +66,22 @@
         <!-- Project 1 -->
         <div class="project-card">
           <div class="project-image">
-            <img src="https://via.placeholder.com/600x400/1A1F22/41494F?text=Adventure+Quest" alt="Adventure Quest"
-              class="project-img">
+            <img src="img/TriggerTiles.png" alt="Trigger Tiles" class="project-img">
             <div class="project-overlay">
               <div class="project-tags">
                 <span class="tag">Unity</span>
-                <span class="tag">C#</span>
-                <span class="tag">Blender</span>
+                <span class="tag">2D</span>
+                <!-- <span class="tag">Blender</span> -->
               </div>
             </div>
           </div>
           <div class="project-info">
-            <h3 class="project-title">Adventure Quest</h3>
-            <p class="project-desc">A 3D action-adventure game featuring custom character controller and AI systems.</p>
+            <h3 class="project-title">Trigger Tiles</h3>
+            <p class="project-desc">Trigger Tiles is a fast-paced 2D side-scrolling shooter that prioritizes feel —
+              smooth controls, tight feedback loops, and snappy gameplay.</p>
             <div class="project-links">
-              <a href="#" class="link-btn">Play Demo</a>
-              <a href="#" class="link-btn">Code Samples</a>
+              <!-- <a href="#" class="link-btn">Play Demo</a> -->
+              <a href="https://github.com/MrSingh6435/Trigger-Tiles.git" class="link-btn">Source Code</a>
             </div>
           </div>
         </div>
@@ -91,8 +89,30 @@
         <!-- Project 2 -->
         <div class="project-card">
           <div class="project-image">
-            <img src="https://via.placeholder.com/600x400/1A1F22/41494F?text=Puzzle+Dimension" alt="Puzzle Dimension"
-              class="project-img">
+            <img src="img/SharpShooter.png" alt="Sharp-Shooter" class="project-img">
+            <div class="project-overlay">
+              <div class="project-tags">
+                <span class="tag">Unity</span>
+                <span class="tag">C#</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title"> Sharp Shooter</h3>
+            <p class="project-desc">An action-packed First-Person Shooter built in Unity, with 3 wepons and reload
+              system.
+            </p>
+            <div class="project-links">
+              <!-- <a href="#" class="link-btn">Play Demo</a> -->
+              <a href="https://github.com/MrSingh6435/Sharp-Shooter.git" class="link-btn">Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/RocketBoost.png" alt="RocketBoost" class="project-img">
             <div class="project-overlay">
               <div class="project-tags">
                 <span class="tag">Unity</span>
@@ -101,34 +121,12 @@
             </div>
           </div>
           <div class="project-info">
-            <h3 class="project-title">Puzzle Dimension</h3>
-            <p class="project-desc">A physics-based puzzle game with interactive objects and level design challenges.
-            </p>
+            <h3 class="project-title">Rocket Boost</h3>
+            <p class="project-desc">Rocket Boost is a physics-driven 3D game where you pilot a rocket through
+              challenging levels, mastering thrust control, rotation, and smooth landings.</p>
             <div class="project-links">
-              <a href="#" class="link-btn">Play Demo</a>
-              <a href="#" class="link-btn">Source Code</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 3 -->
-        <div class="project-card">
-          <div class="project-image">
-            <img src="https://via.placeholder.com/600x400/1A1F22/41494F?text=Horror+Escape" alt="Horror Escape"
-              class="project-img">
-            <div class="project-overlay">
-              <div class="project-tags">
-                <span class="tag">Unity</span>
-                <span class="tag">Horror</span>
-              </div>
-            </div>
-          </div>
-          <div class="project-info">
-            <h3 class="project-title">Horror Escape</h3>
-            <p class="project-desc">A first-person horror puzzle game with immersive sound and dynamic lighting.</p>
-            <div class="project-links">
-              <a href="#" class="link-btn">Play Demo</a>
-              <a href="#" class="link-btn">Devlog</a>
+              <!-- <a href="#" class="link-btn">Play Demo</a> -->
+              <a href="https://github.com/MrSingh6435/Rocket-Boost.git" class="link-btn">Source Code</a>
             </div>
           </div>
         </div>
@@ -147,12 +145,12 @@
           <div class="skills-list">
             <div class="skill-item"><span class="skill-name">Unity</span>
               <div class="skill-bar">
-                <div class="skill-level" style="width: 90%"></div>
+                <div class="skill-level" style="width: 60%"></div>
               </div>
             </div>
             <div class="skill-item"><span class="skill-name">C#</span>
               <div class="skill-bar">
-                <div class="skill-level" style="width: 85%"></div>
+                <div class="skill-level" style="width: 45%"></div>
               </div>
             </div>
           </div>
@@ -162,42 +160,14 @@
           <div class="skills-list">
             <div class="skill-item"><span class="skill-name">Blender</span>
               <div class="skill-bar">
-                <div class="skill-level" style="width: 80%"></div>
+                <div class="skill-level" style="width: 60%"></div>
               </div>
             </div>
-            <div class="skill-item"><span class="skill-name">Substance Painter</span>
+            <div class="skill-item"><span class="skill-name">Gimp</span>
               <div class="skill-bar">
-                <div class="skill-level" style="width: 70%"></div>
+                <div class="skill-level" style="width: 55%"></div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 3D Art Gallery -->
-  <section id="3d-art" class="section art-gallery">
-    <div class="container">
-      <h2 class="section-title">3D Art Gallery</h2>
-      <p class="section-subtitle">Some models I've created</p>
-      <div class="gallery-grid">
-        <div class="gallery-item"><img src="https://via.placeholder.com/400x300/1A1F22/41494F?text=Character+Model">
-          <div class="gallery-overlay">
-            <h3>Character Model</h3>
-            <p>Blender + Substance Painter</p>
-          </div>
-        </div>
-        <div class="gallery-item"><img src="https://via.placeholder.com/400x300/1A1F22/41494F?text=Environment">
-          <div class="gallery-overlay">
-            <h3>Environment</h3>
-            <p>Low poly style</p>
-          </div>
-        </div>
-        <div class="gallery-item"><img src="https://via.placeholder.com/400x300/1A1F22/41494F?text=Props">
-          <div class="gallery-overlay">
-            <h3>Props</h3>
-            <p>Game-ready assets</p>
           </div>
         </div>
       </div>
@@ -213,16 +183,14 @@
           blending
           creativity and technology to craft interactive game experiences.</p>
         <div class="about-facts">
-          <div class="fact-item"><span class="fact-number">3+</span><span class="fact-label">Years Experience</span>
-          </div>
-          <div class="fact-item"><span class="fact-number">10+</span><span class="fact-label">Projects</span></div>
+          <!-- <div class="fact-item"><span class="fact-number">3+</span><span class="fact-label">Years Experience</span></div> -->
+          <div class="fact-item"><span class="fact-number">3+</span><span class="fact-label">Projects</span></div>
           <div class="fact-item"><span class="fact-number">5+</span><span class="fact-label">Game Jams</span></div>
         </div>
       </div>
       <div class="about-image">
         <div class="image-wrapper">
-          <!-- <img src="https://via.placeholder.com/400x400.png?text=My+Photo" class="profile-img" alt="Pardeep Singh"> -->
-          <img src="img/BW" class="profile-img" alt="Pardeep Singh">
+          <img src="img/IMG_20220611_135602.png" class="profile-img" alt="Pardeep Singh">
           <div class="image-border"></div>
         </div>
       </div>
@@ -276,7 +244,6 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#3d-art">3D Art</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
